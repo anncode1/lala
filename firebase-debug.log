@@ -1,0 +1,29 @@
+[debug] [2017-06-15T15:55:26.039Z] ----------------------------------------------------------------------
+[debug] [2017-06-15T15:55:26.043Z] Command:      /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2017-06-15T15:55:26.043Z] CLI Version:  3.9.1
+[debug] [2017-06-15T15:55:26.043Z] Platform:     darwin
+[debug] [2017-06-15T15:55:26.043Z] Node Version: v4.4.5
+[debug] [2017-06-15T15:55:26.044Z] Time:         Thu Jun 15 2017 10:55:26 GMT-0500 (CDT)
+[debug] [2017-06-15T15:55:26.044Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-15T15:55:26.058Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-15T15:55:26.058Z] > authorizing via signed-in user
+[debug] [2017-06-15T15:55:26.060Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-15T15:55:26.060Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/LPMbqB8BuRc883eIfCyaBtXqeLFGzk4xZ7Ofvsw-XME',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Jun 15 2017 10:55:26 GMT-0500 (CDT)
+[debug] [2017-06-15T15:55:26.466Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-15T15:55:26.469Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pruebas-firebase-196f2  
+ Thu Jun 15 2017 10:55:26 GMT-0500 (CDT)
+[debug] [2017-06-15T15:55:27.137Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-15T15:55:27.138Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pruebas-firebase-196f2/tokens  
+ Thu Jun 15 2017 10:55:27 GMT-0500 (CDT)
+[debug] [2017-06-15T15:55:28.090Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'pruebas-firebase-196f2'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing . directory for upload...
